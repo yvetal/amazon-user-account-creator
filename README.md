@@ -28,6 +28,12 @@ Example: chromedriver_path="C:\\software\\chromedriver\\chromedriver.exe"
   - **created_accounts.xlsx**: These accounts have already been created by automation.   **Please do not delete or replace this file. It may cause issues with our algorithm.**
 2. **Run the main.py file from cmd.** You may double click on the same file, but the logs won't be available in that case.
 3. **GIF Captcha** has not yet been handled. If it is encountered, just type the answer in the text box. **Do not press submit** and press enter in the cmd window to continue.
+4. After execution please commit and push to this repository using the following commands:
+- git add --all
+- git commit -m "Message"
+- git push -u origin master
+- **This is necessary to keep the accounts created in sync with repository.**
+- **For this repo, email id's will be utilised uniformly.**
 
 ## Algorithm:
 
